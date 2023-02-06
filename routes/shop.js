@@ -17,6 +17,7 @@ router.get('/', (req, res, next) => {
     activeShop: true,
     productCSS: true
   });
+  console.log(products)
 });
 
 module.exports = router;
